@@ -83,14 +83,12 @@
                                                 <a href="ContactUs.jsp" class="txt2">
 							Contact Us
                                                 </a></br>
-                                            
+                                            <a href="admin.jsp" class="txt2">
+							AdminDesk
+                                                </a>
 					</div>
 				</form>
-			</div><div style="text-align: center; margin-top: 20px;">
-        <form action="admin" method="GET">
-            <button type="submit">Go to Admin Desk</button>
-        </form>
-    </div>
+			</div>
 		</div>
 	</div>
 	
@@ -115,4 +113,4 @@
 <script src="js/main.js"></script></form>
 
 </body>
-</html>
+</html> 

@@ -28,7 +28,7 @@
 <!--===============================================================================================-->
 </head>
 <body>
-    <form action="login" method="POST">
+    <form action="admin" method="POST">
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
@@ -53,13 +53,17 @@
                                     
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
 						<span class="label-input100">Mobile No.</span>
-						<input class="input100" type="number" name="username" placeholder="Type your Mobile No." minlength="10" maxlength="10" required>
+						<input class="input100" type="number" name="number" placeholder="Type your Mobile No." minlength="10" maxlength="10" required>
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
-
-					<div class="wrap-input100 validate-input" data-validate="Password is required">
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span>
 						<input class="input100" type="password" name="password" placeholder="Type your password" required>
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" name="Username" placeholder="Username" required>
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					 <div class="text-right p-t-8 p-b-31">
@@ -72,21 +76,7 @@
 							</button>
 						</div>
 					</div>
-					<div class="flex-col-c p-t-160">
-						
-						<a href="SignUp.jsp" class="txt6">
-                                                    <font color="orange"> Sign Up </font>
-                                                </a><br>
-                                                <a href="AboutUs.jsp" class="txt2">
-							About Us 
-                                                </a>
-                                                <a href="ContactUs.jsp" class="txt2">
-							Contact Us
-                                                </a></br>
-                                            <a href="admin.jsp" class="txt2">
-							AdminDesk
-                                                </a>
-					</div>
+					
 				</form>
 			</div>
 		</div>
@@ -113,4 +103,4 @@
 <script src="js/main.js"></script></form>
 
 </body>
-</html> 
+</html>

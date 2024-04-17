@@ -1,9 +1,3 @@
-<%-- 
-    Document   : DCard
-    Created on : 14-Mar-2020, 13:28:22
-    Author     : Bitu
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!DOCTYPE html>

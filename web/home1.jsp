@@ -276,14 +276,8 @@ and open the template in the editor.
                     <td style="color: #fa4251">
                         Operator : 
                     </td>
-                    <td style="color: #fa4251">
-                        <select name="Operator">
-                            <option>Idea</option>
-                            <option>Vodafone</option>
-                            <option>Jio</option>
-                            <option>Airtel</option>
-                            <option>BSNL</option>
-                        </select>
+                    <td style="color: black">
+                        MOBI-COMM
                     </td>
                 </tr>
                 <tr>
